@@ -55,7 +55,7 @@ In fact, you need to make sure that the following request returns the list of so
 ##LIMITS
 As there is no custom field for the display changes made in *DifferentialChangesetTwoUpRenderer* and *DiffusionCommitChangeTableView* classes, redeclaring those classes should be enough to resist phabricator future updates. But if those classes were changed, it would be necessary to readapt the extension. The creation of the needed custom fields would settle this update issue.
 
-Note that the issue line might be wrong if Sonar haven't been run in a while.
+Note that the issue line might be wrong if Sonar haven't been run recently.
 
 ##SOURCES
 - http://phabricator.org/
