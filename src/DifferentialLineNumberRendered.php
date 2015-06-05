@@ -11,8 +11,8 @@ final class DifferentialLineNumberRendered {
   private $blocker;
   private $lines;
 
-  const SONAR_URL = 'http://172.16.50.42:9000';
-  const PROJECTS_ROOT = 'com.ipsite:';
+  const SONAR_URL = 'http://yolosonar.com';
+  const PROJECTS_ROOT = 'com.yoloprojects:';
   const SEARCH_REQUEST = '/api/issues/search?components=';
 
   public function __construct($path, $range_start, $range_len) {
