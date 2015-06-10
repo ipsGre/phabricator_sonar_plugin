@@ -42,7 +42,7 @@ final class DifferentialLineNumberRendered {
     }
     if ($this->issues) {
       foreach ($this->issues as $k => $v) {
-        if (isset($v->line)) {
+        if (isset($v->line) && $v->status == 'OPEN') {
            $num = $v->line;
            $type = $v->severity;
            $msg = $v->message;
